@@ -1,7 +1,14 @@
 from collections import deque
 
-numbers = input("numbers separated: ")
-stack = deque(numbers.split())
+numbers = input()
+nmb=numbers.split()
+stack = deque()
+
+for i in nmb:
+    a=int(i)
+    stack.append(a)
+
+
 
 print("stack1", stack)
 
